@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="uft-8">
+	<meta name="viweport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<link href="CSS/css.css" rel="stylesheet">
+	<title>Formulário</title>
+</head>
+<body>
+	<form action="#" method="post" id = "form">
+		<h1>Formulário Teste</h1>
+		<fieldset>
+
+			<fieldset class="grupo">
+				<div class="campo">
+					<label for="nome">Nome</label>
+					<input type="text" id="nome" name="nome" style="width: 41em" value="" />
+				</div>
+				<div class="campo">
+					<label for="snome">Sobrenome</label>
+					<input type="text" id="snome" name="snome" style="width: 41em" value="" />
+				</div>
+				<div class="campo">
+					<label for="snome">Nascimento</label>
+					<input type="date" id="sidade" name="sidade" style="width: 20em" value="" />
+				</div>
+			</fieldset>	
+
+			<fieldset class="grupo">
+				<div class="campo">
+					<label for="snome">RG</label>
+					<input type="text" id="srg" name="srg" style="width: 20em" value="" />
+				</div>
+				<div class="campo">
+					<label for="snome">CPF</label>
+					<input type="text" id="scpf" name="scpf" style="width: 20em" value="" />
+				</div>
+			</fieldset>	
+
+			<div class="campo">
+				<label>Sexo</label>
+				<label class="checkbox">
+					<input type="radio" name="sexo" value="masculino"> Masculino
+				</label>
+				<label class="checkbox">
+					<input type="radio" name="sexo" value="feminino"> Feminino
+				</label>
+			</div>
+
+			<div class="campo">
+				<label for="email">E-mail</label>
+				<input type="text" id="email" name="email" style="width: 41em" value="" />
+			</div>
+
+			<fieldset class="grupo">
+				<div class="campo">
+					<label for="telefone">Celular</label>
+					<input type="text" id="celular" name="celular" style="width: 20em"  value="" />
+				</div>
+				<div class="campo">
+					<label for="telefone">Telefone</label>
+					<input type="text" id="telefone" name="telefone" style="width: 20em"  value="" />
+				</div>
+			</fieldset>
+
+			<fieldset class="grupo">
+				<div class="campo">
+					<label for="cidade">Endereço</label>
+					<input type="text" id="endereco" name="endereco" style="width: 41em" value="" />
+				</div>
+				<div class="campo">
+					<label for="cidade">Cidade</label>
+					<input type="text" id="cidade" name="cidade" style="width: 20em" value="" />
+				</div>
+				<div class="campo">
+					<label for="estado">Estado</label>
+					<select name="estado" id="estado">
+						<option value="">--</option>
+						<option value="PR">AC</option>
+						<option value="PR">AL</option>
+						<option value="PR">AP</option>
+						<option value="PR">AM</option>
+						<option value="PR">BA</option>
+						<option value="PR">CE</option>
+						<option value="PR">DF</option>
+						<option value="PR">ES</option>
+						<option value="PR">GO</option>
+						<option value="PR">MA</option>
+						<option value="PR">MT</option>
+						<option value="PR">MS</option>
+						<option value="PR">MG</option>
+						<option value="PR">PA</option>
+						<option value="PR">PB</option>
+						<option value="PR">PR</option>
+						<option value="PR">PE</option>
+						<option value="PR">PI</option>
+						<option value="PR">RJ</option>
+						<option value="PR">RN</option>
+						<option value="PR">RS</option>
+						<option value="PR">RO</option>
+						<option value="PR">RR</option>
+						<option value="PR">SC</option>
+						<option value="PR">SP</option>
+						<option value="PR">SE</option>
+						<option value="PR">TO</option>
+					</select>
+				</div>
+			</fieldset>
+
+			<button class="botao submit" type="submit" name="submit">Enviar</button>
+
+		</fieldset>
+	</form>
+</body>
+</html>
